@@ -6,3 +6,6 @@ full_name = f"{first_name} {last_name}" #to insert a variable's value into a str
 print(full_name)
 #we can use f-strings to compose complete message also using the information associated with variable.
 print(f"Hello My name is, {full_name.upper()}")
+#we can also use f-string to compose a message, then assign entire message to a variable
+message = f"Hi, {full_name.upper()}"
+print(message)
