@@ -3,3 +3,7 @@
 a = 4
 b = 2
 print(a/b)
+#if we mix an integer and a float in any other operation then we will get a float as well
+a = 1
+b = 2.0
+print(a+b)
