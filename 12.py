@@ -34,3 +34,8 @@ bike = ['hero', ' yamaha', 'Suzuki']
 popped_bike = bike.pop()
 print(bike)
 print(popped_bike)
+
+#Popping item from any position in a list 
+bike = ['hero', ' yamaha', 'Suzuki']
+last_owened = bike.pop(1)
+print(f"My last owned bike was a {last_owened.title()}")
