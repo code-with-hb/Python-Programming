@@ -39,3 +39,9 @@ print(popped_bike)
 bike = ['hero', ' yamaha', 'Suzuki']
 last_owened = bike.pop(1)
 print(f"My last owned bike was a {last_owened.title()}")
+
+#Removing an item by value
+#If we know the value of the item we want to remove, we can use the remove() Method.
+bike = ['hero', ' yamaha', 'Suzuki']
+bike.remove('hero')
+print(bike)
