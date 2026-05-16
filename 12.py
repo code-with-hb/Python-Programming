@@ -29,3 +29,8 @@ print(bike)
 bike = ['hero', ' yamaha', 'Suzuki']
 del bike[1]
 print(bike)
+#Removing items using the pop() Method
+bike = ['hero', ' yamaha', 'Suzuki']
+popped_bike = bike.pop()
+print(bike)
+print(popped_bike)
