@@ -4,4 +4,7 @@ bike = ['Yamaha', 'Enfiled', 'Hero', 'Honda']
 print(bike)
 bike[0] = 'Ducati'
 print(bike)
-#Adding Element
+#Adding Element to a list
+#appending elements to the end of a list
+bike.append('Yamaha')
+print(bike)
