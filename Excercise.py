@@ -14,4 +14,20 @@ invitees[0] = 'suman'
 print(f"\nDear {invitees[0].title()} you are invited to dinner.")
 print(f"Dear {invitees[1].title()} you are invited to dinner.")
 print(f"Dear {invitees[2].title()} you are invited to dinner.")
-            
+
+#3. You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner. Add a print statement to the end of your program informing people that you found a bigger dinner table. Then use insert() to add one new guest to the beginning of your list, use insert() to add one new guest to the middle of your list, and use append() to add one new guest to the end of your list. Print a new set of invitation messages, one for each person in your list.
+invitees = ['suman', 'sagar', 'appa']           
+print(f"Dear {invitees[0].title()} you are invited to dinner.")
+print(f"Dear {invitees[1].title()} you are invited to dinner.")
+print(f"Dear {invitees[2].title()} you are invited to dinner.")
+print("\nGood news! I found a bigger dinner table.")    
+invitees.insert(0, 'rabi')
+invitees.insert(2, 'sushil')    
+invitees.append('sujan')
+print(f"\nDear {invitees[0].title()} you are invited to dinner.")       
+print(f"Dear {invitees[1].title()} you are invited to dinner.")
+print(f"Dear {invitees[2].title()} you are invited to dinner.") 
+print(f"Dear {invitees[3].title()} you are invited to dinner.")
+print(f"Dear {invitees[4].title()} you are invited to dinner.")     
+print(f"Dear {invitees[5].title()} you are invited to dinner.")
+                                
