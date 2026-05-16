@@ -22,3 +22,10 @@ print(bike)
 bike = ['hero', ' yamaha', 'Suzuki']
 bike.insert(0, 'Ducati')
 print(bike)
+
+#Removing Elements from a list
+#______________________________________________________________
+#If we know the position of the item we want to remove from a list, we can use the del statement.
+bike = ['hero', ' yamaha', 'Suzuki']
+del bike[1]
+print(bike)
