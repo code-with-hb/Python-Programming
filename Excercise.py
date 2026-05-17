@@ -71,3 +71,7 @@ places.sort(reverse=True)
 print("This is the reverse sorted list: ")
 print(places)
 
+#6. Use len() to print the number of people you are inviting to dinner (use the list from Exercise 3).
+invitees = ['rabi', 'suman', 'sushil', 'sagar', 'appa', 'sujan']
+number_of_invitees = len(invitees)  
+print(f"The number of people i am inviting to dinner is {number_of_invitees}.")
