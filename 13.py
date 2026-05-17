@@ -10,3 +10,13 @@ print(cars)
 cars = ['bmw','audi','tata','mahindra']
 cars.sort(reverse=True)     
 print(cars)
+
+#2. Sorting a list temporarily with sorted() functions
+#the sorted() display our list in particular order doesn't affect the actual order of the list.
+cars = ['bmw', 'audi', 'toyota', 'mahindra']
+print("This is the original cars list:")
+print(cars)
+print("This is the sorted list:")
+print(sorted(cars))
+print("This is the original cars list again:")
+print(cars)
