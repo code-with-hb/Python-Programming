@@ -23,3 +23,9 @@ print(cars)
 #The sorted function can also accept a reverse = True argument if we want to sort a list in reverse alphabetical order
 print("This is the reverse car list")
 print(sorted(cars, reverse= True))
+
+#3. Finding the length of a list
+#to find the length of a list we use length() function.
+cars = ['bmw', 'audi', 'toyota', 'mahindra']
+length_cars = len(cars)
+print(f"The total length of the car is {length_cars}")
