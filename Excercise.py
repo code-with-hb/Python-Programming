@@ -46,3 +46,28 @@ print(f"Dear {invitees[1].title()} you are still invited to dinner.")
 del invitees[0]
 del invitees[0] 
 print(invitees)
+ #5. Think of at least five places in the world you'd like to visit. Store the locations in a list. Make sure the list is not in alphabetical order.   
+places = ['singapore', 'dubai', 'mumbai','tawang', 'america', 'london']
+#print your list in its original order. Don't worry about printing the list neatly, just print it as a raw Python list.
+print("This is the orginal list: ")
+print(places)
+#Use sorted() to print your list in alphabetical order without modifying the actual list.
+print("This is the sorted list: ")
+print(sorted(places))
+#Show that your list is still in its original order by printing it.
+print("This is the original order list:")
+print(places)
+#Use reverse() to change the order of list again. Print the list to show it's back to it's original order.
+places.reverse()        
+print("This is the original order list again: ")
+print(places)
+#   Use sort() to change your list so it's stored in alphabetical order. Print the list to show that its order has been changed.
+places.sort()       
+print("This is the sorted list: ")
+print(places)
+
+#Use sort() to change your list so it's stored in reverse alphabetical order. Print the list to show that its order has changed.
+places.sort(reverse=True)       
+print("This is the reverse sorted list: ")
+print(places)
+
