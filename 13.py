@@ -20,3 +20,6 @@ print("This is the sorted list:")
 print(sorted(cars))
 print("This is the original cars list again:")
 print(cars)
+#The sorted function can also accept a reverse = True argument if we want to sort a list in reverse alphabetical order
+print("This is the reverse car list")
+print(sorted(cars, reverse= True))
